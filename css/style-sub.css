@@ -1,0 +1,1277 @@
+.center {
+    /*    background-color: rgba(0, 0, 100, 0.2);*/
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center2 {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h2 {
+    text-indent: 10px;
+}
+
+a {
+    color: #1e262c;
+    font-size: 14px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+
+
+
+/*head*/
+
+header {
+    min-width: 1200px;
+    background: #1e262c;
+}
+
+/*    headTop*/
+.logo {
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.login {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    text-align: center;
+}
+
+.login span {
+    display: block;
+    color: #fff;
+    font-size: 8px;
+}
+
+.search {
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+
+.search input {
+    border: none;
+    width: 212px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 6px 50px 6px 10px;
+    box-sizing: border-box;
+}
+
+.search img {
+    position: absolute;
+    width: 18px;
+    top: 6px;
+    right: 16px;
+}
+
+
+
+/*    nav*/
+
+#nav a {
+    display: block;
+    color: #fff;
+}
+
+#nav > .mainMenu > a {
+    display: block;
+    font-family: 'Bebas Neue', 'Bebas Neue Regular', 'Noto Sans CJK KR', sans-serif, "Bebas Neue Regular W";
+    font-size: 28px;
+}
+
+#nav {
+    padding: 0 20%;
+}
+
+#nav > li {
+    float: left;
+    text-align: center;
+    width: 33.333%;
+    box-sizing: border-box;
+}
+
+.hamBtn,
+.m_close,
+.m_subBg {
+    display: none;
+}
+
+
+/*sub*/
+
+.subOn {
+    position: absolute;
+    top: 127px;
+    width: 100%;
+    height: 2px;
+    background: #f36e38;
+    display: none;
+}
+
+.mainBg {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 133px;
+    height: 60px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.mainSub {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    left: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.mainSub > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#nav .mainSub > li > a {
+    display: block;
+    color: #1e262c;
+    font-weight: 400;
+}
+#nav > li:hover > a {
+    color: #f36e38;
+}
+#nav .mainSub > li > a:hover {
+    color: #f36e38;
+}
+
+
+/*game sub*/
+
+.subBg {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 192px;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.mainSub .allGame {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 65px;
+    left: 0;
+    top: 58px;
+    display: none;
+    z-index: 1000;
+}
+
+.mainSub .allGame > li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.mainSub .allGame > li > a {
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+.mainSub .allGame > li > a:hover{
+    text-shadow: 0 0 8px #000;
+}
+
+
+
+
+
+/*container*/
+
+#topvisual {
+    min-width: 1200px;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+#video {
+    position: absolute;
+    top: -200px;
+    margin: 0 auto;
+}
+
+.topVideoBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+}
+
+.gameInfo {
+    position: absolute;
+    /*    top:120px;*/
+    top: 6vw;
+    /*    width:1100px;*/
+    width: 60vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gameInfo > div:first-child {
+    overflow: hidden;
+    /*    background-color:aqua;*/
+}
+
+.gameInfo .gameImg {
+    width: 115px;
+    height: 162px;
+    background-image: url(../images/pack_battlefield5.jpg);
+    background-size: 100%;
+    float: left;
+}
+
+.gameInfo button {
+    position: absolute;
+    background-color: #f36e38;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    top: 122px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.gameInfo .title {
+    width: 366px;
+    height: 60px;
+    background-image: url(../images/title_battlefield.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 15px 0;
+}
+
+.gameInfo > .s_gameAbout > p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
+
+.gameInfo > div:nth-child(3) > p {
+    width: 50px;
+    float: left;
+    margin: 15px 5px 0 0;
+}
+
+.gameInfo > div:nth-child(3) > p:last-child {
+    width: 100px;
+}
+
+.gameInfo > div:nth-child(3) > p:last-child > span {
+    display: block;
+    color: #fff;
+}
+
+.gameInfo > div:nth-child(3) > p:last-child > span > img {
+    width: 15px;
+    margin-top: 2px;
+}
+
+.gameInfo > div:nth-child(3) > p:last-child > span > a {
+    color: #f36e38;
+    font-size: 12px;
+}
+
+.gameInfo > div:nth-child(3) > p > img {
+    width: 100%;
+}
+
+
+
+
+
+.videoBg {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.playVideo {
+    width: 100vw;
+    height: 58vw;
+    position: fixed;
+    /*    background-color:aqua;*/
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    display: none;
+}
+
+.playVideo div {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+.playVideo iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.videoWrap {
+    overflow: hidden;
+    margin: 50px 0 100px;
+    min-width: 1200px;
+}
+
+.video_banner {
+    overflow: hidden;
+    width: 100%;
+}
+
+.videobanner {
+    width: 500%;
+}
+
+.videobanner > li {
+    width: 6.555%;
+    float: left;
+    margin: 0 0.05%;
+    position: relative;
+}
+
+.videobanner > li > a {
+    display: block;
+}
+
+.videobanner img {
+    /*    margin-top:-37px;*/
+    width: 100%;
+}
+
+.videobanner > li p {
+    display: inline-block;
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    min-width: 30px;
+    min-height: 30px;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../images/video.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.playVideo > .playVideo3 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/vss03.jpg);
+}
+
+.playVideo > .playVideo4 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/vss04.jpg);
+}
+
+.playVideo > .playVideo5 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/vss05.jpg);
+}
+
+.playVideo > .playVideo6 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/vss06.jpg);
+}
+
+.playVideo > .playVideo7 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/vss07.jpg);
+}
+
+.playVideo > .playVideo8 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/vss08.jpg);
+}
+
+.videoBtn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.videoBtn > li {
+    float: left;
+    margin: 15px 5px 0;
+}
+
+.videoBtn > li > a {
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 3px solid #f36e38;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.videoBtn > li.active > a {
+    width: 6px;
+    height: 6px;
+    background-color: #f36e38;
+    border-radius: 50%;
+}
+
+.videoBtn > li:nth-child(4),
+.videoBtn > li:nth-child(5) {
+    display: none;
+}
+
+
+
+.contents {
+    min-width: 1200px;
+    width: 100%;
+}
+
+.contents h2 {
+    color: #fff;
+    text-indent: 0;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contents p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cont1 {
+    position: relative;
+    background-image: url(../images/cont1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    /*    height:800px;*/
+    height: 41.7vw;
+}
+
+.cont1 > .text {
+    top: 60%;
+    opacity: 0;
+}
+
+
+
+.cont2 {
+    position: relative;
+    background-image: url(../images/cont2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:105%;
+    /*    height:800px;*/
+    height: 41.7vw;
+}
+
+.cont2 > .text {
+    top: 60%;
+    text-align: right;
+    opacity: 0;
+}
+
+
+
+.cont3 {
+    position: relative;
+    background-image: url(../images/cont3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:105%;
+    /*    height:800px;*/
+    height: 41.7vw;
+}
+
+.cont3 > .text {
+    top: 50%;
+    text-align: center;
+    opacity: 0;
+}
+
+
+
+
+.gameInfoBottom {
+    min-width: 1200px;
+    /*    background-color:aqua;*/
+}
+
+.gameInfoBottom > h2 {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    font-size: 22px;
+    text-indent: 0;
+    margin: 20px 0;
+    /*    background-color:antiquewhite;*/
+}
+
+.gameInfoBottom > div {
+    overflow: hidden;
+}
+
+.gameInfoBottom > div > p {
+    width: 30%;
+    float: left;
+}
+
+.gameInfoBottom > div > p:nth-child(4) {
+    width: 10%;
+}
+
+.gameInfoBottom > div > p:nth-child(4) > span {
+    display: block;
+}
+
+.gameInfoBottom > div > p:nth-child(4) > span > a {
+    color: #f36e38;
+}
+
+.gameInfoBottom p,
+.gameInfoBottom span {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.gameInfoBottom > div > p > strong {
+    display: block;
+    font-size: 15px;
+    color: #1e262c;
+}
+
+
+
+
+.forGame > h2 {
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    text-indent: 0;
+    margin: 20px 0;
+    min-width: 1200px;
+}
+
+
+
+.forGame {
+    /*    background-color: lightpink;*/
+    overflow: hidden;
+}
+
+.forGameList {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.forGameList list {
+    width: 300%;
+    height: 420px;
+}
+
+
+
+.list > li {
+    float: left;
+    width: 192px;
+    height: 380px;
+    margin: 0.3%;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 4px #666;
+    overflow: hidden;
+}
+
+
+.list > li a:first-child > img {
+    width: 100%;
+}
+
+.list > li .wish {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/favorite_bf.png);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    filter: drop-shadow(0 0 2px #000);
+}
+
+.list > li .wish.active {
+    background-image: url(../images/favorite_af.png);
+}
+
+.list > li .title {
+    font-family: 'Bebas Neue', 'Bebas Neue Regular', 'Noto Sans CJK KR', sans-serif, "Bebas Neue Regular W";
+    font-size: 22px;
+    text-indent: 10px;
+}
+
+.list > li .about {
+    margin-left: 10px;
+    color: #666;
+}
+
+.list > li .buyBtn {
+    position: absolute;
+    margin-left: 10px;
+    bottom: 30px;
+    display: none;
+}
+
+.list button {
+    background: #f36e38;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.list > li .price {
+    position: absolute;
+    margin-left: 10px;
+    bottom: 0px;
+}
+
+.list > li .price span:first-child {
+    font-size: 18px;
+    color: #f36e38;
+}
+
+
+
+
+
+
+
+
+
+
+.tos {
+    min-width: 1200px;
+    margin: 20px 0 0;
+}
+
+.tos > p {
+    color: #666;
+    font-size: 14px
+}
+
+.tos strong {
+    display: block;
+    margin: 10px 0;
+    color: #1e262c;
+}
+
+.topBtn {
+    margin: 30px 0 6px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*footer*/
+
+footer {
+    padding: 30px 10px;
+    background: #1e262c;
+    height: 200px;
+    min-width: 1200px;
+    box-sizing: border-box;
+}
+
+footer .footInfo {
+    float: left;
+    width: 60%;
+}
+
+footer .footInfo > P {
+    color: #999;
+}
+
+footer .footInfo > P:first-child {
+    margin-bottom: 20px;
+}
+
+footer .footInfo > P:last-child {
+    margin-top: 20px;
+}
+
+footer .footInfo a {
+    color: #f36e38;
+    font-size: 12px;
+}
+
+footer button {
+    position:absolute;
+    top:0;
+    right:0;
+    width: 300px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    float: right;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    background-image: url(../images/language_abtnup.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+footer button > img {
+    margin: 0 20px;
+}
+footer button.active{
+    background-image: url(../images/language_abtn.png);
+}
+
+.languageSub {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    right: 0;
+    top: -200px;
+    background: #fff;
+    bottom: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.languageSub li {
+    display: block;
+    font-size: 16px;
+    line-height: 2;
+    position: relative;
+    text-indent: 60px;
+}
+
+.languageSub li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    top: 10px;
+    margin: 0 24px;
+}
+
+.languageSub li.active:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    border: 2px solid #f36e38;
+    border-radius: 50%;
+    top: 10px;
+    margin: 0 24px;
+}
+
+.footFixed{
+    display:none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    header,
+    headBottom,
+    #topvisual,
+    .videoWrap,
+    #container,
+    .contents,
+    .gameInfoBottom,
+    .contents section,
+    .tos,
+    footer{
+        min-width:100%;
+    }
+    .center,
+    .center2,
+    header,
+    .headTop,
+    .news,
+    .newGameMenu > li {
+        width: 100%;
+    }
+
+    .contents .text {
+        width: 80vw;
+        top: 21vw;
+    }
+
+    .contents .text > h2 {
+        font-size: 20px;
+    }
+
+    .contents .text > p {
+        font-size: 16px;
+    }
+    
+    #nav .mainSub > li{
+        margin:0 5px;
+    }
+    #nav .mainSub > li > a {
+        font-size:13px;
+    }
+    .mainSub .allGame > li > a{
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    header,
+    .headTop {
+        width: 100%;
+    }
+    header {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        height: 70px;
+        min-width: 100%;
+        z-index: 10000;
+    }
+    .headBottom {
+        top: 120px;
+    }
+
+    .search {
+        top: 70px;
+        right: -80vw;
+        z-index: 9999;
+    }
+
+    .search input {
+        width: 80vw;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .search img {
+        top: 12px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .logo {
+        padding: 15px 0;
+    }
+
+    .logo img {
+        width: 110px;
+    }
+
+    .login {
+        left: 15px;
+        top: 33%;
+    }
+
+    .login span {
+        display: none;
+    }
+
+    .hamBtn {
+        position: absolute;
+        display: block;
+        top: 30%;
+        right: 15px;
+    }
+
+    .m_close {
+        position: absolute;
+        right: 80vw;
+        padding: 0 10px;
+        z-index: 100;
+    }
+
+    .headBottom {
+        display: block;
+        position: fixed;
+        right: -80vw;
+        min-width: 80vw;
+        background-color: #fff;
+        z-index: 1000;
+    }
+
+    .m_subBg {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 100;
+    }
+
+    .headBottom .center{
+        overflow: hidden;
+    }
+    nav{
+        overflow: hidden;
+        height:calc(100vh - 70px);
+        width:80vw;
+    }
+    #nav {
+        position:relative;
+        padding: 0;
+        height:100%;
+        overflow-y: scroll;
+        width:calc(100% + 20px);
+    }
+
+    #nav a {
+        color: #1e262c;
+    }
+
+    #nav > li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #nav > li > a.focus {
+        color: #f36e38;
+    }
+
+    #nav > .mainMenu > a {
+        width: 100%;
+        display: block;
+        line-height: 54px;
+    }
+
+    .mainMenu {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .mainSub,
+    .gameSub {
+        position: static;
+        display: none;
+        line-height: 40px;
+    }
+
+    #nav .mainSub > li {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .allGame {
+        display: block;
+        width: 80vw;
+    }
+
+    .mainSub > li:first-child {
+        border-top: 1px solid #ccc;
+    }
+    
+    
+    #container {
+        margin-top: 70px;
+    }
+    
+    .videoBg {
+        z-index: 10001;
+    }
+    .playVideo {
+        z-index: 10002;
+    }
+    
+    footer button{
+        width:30%;
+    }
+    .languageSub{
+        width:30%;
+    }
+}
+@media screen and (max-width:767px) {
+    .center,
+    .headTop,
+    .news,
+    .newGameMenu > li {
+        width: 100%;
+    }
+
+    /*    #nav,*/
+    .videoBtn > li:nth-child(4),
+    .videoBtn > li:nth-child(5) {
+        display: block;
+    }
+
+
+    footer button,
+    .about,
+    #video > video {
+        display: none;
+    }
+
+    .center,
+    footer .footInfo {
+        width: 100%;
+    }
+
+
+    /*    container*/
+
+    .topVideoBg {
+        background-image: url(../images/v_battlefield5.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 600px;
+    }
+
+    .gameInfo {
+        overflow: hidden;
+        top: 15vw;
+        width: 70vw;
+        min-height: 470px;
+    }
+
+    .gameInfo .gameImg {
+        display: none;
+    }
+
+    .gameInfo button {
+        position: absolute;
+        width: 40vw;
+        font-size: 16px;
+        margin-left: 0;
+        top: inherit;
+        bottom: 0;
+    }
+
+    .gameInfo .title {
+        margin-top: 10vw;
+        width: 60vw;
+        height: 11vw;
+    }
+
+    .gameInfo > .s_gameAbout > p:last-child {
+        display: none;
+    }
+
+
+
+
+
+
+    .videobanner > li {
+        width: 9.9%;
+    }
+
+
+
+
+
+
+
+    .contents .text {
+        text-align: center;
+        top: 10vw;
+    }
+
+    .contents .text > h2 {
+        font-size: 4vw;
+    }
+
+    .contents .text > p {
+        font-size: 3.2vw;
+    }
+
+
+
+
+    .gameInfoBottom > div > p {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .gameInfoBottom > div > p:nth-child(4) {
+        width: 50%;
+    }
+
+    .gameInfoBottom > div > p:nth-child(4) > span {
+        display: block;
+    }
+
+    .gameInfoBottom > .info2 > p:last-child {
+        width: 100%;
+    }
+
+
+
+    .forGameList .list {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .forGameList .list > li {
+        width: 48%;
+        margin: 1%;
+        height: 80vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*    footer*/
+    footer {
+        padding: 10px;
+        height: 34vw;
+        min-height: 200px;
+        margin: 0 0 60px;
+    }
+
+    footer .footInfo > P:first-child {
+        margin-bottom: 0;
+    }
+
+    .closeBtn {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 70px;
+        left: 0;
+    }
+
+    .closeBtn > img {
+        width: 100%;
+    }
+    
+    .footFixed{
+        position:fixed;
+        bottom:0;
+        left:0;
+        display:block;
+        width:100%;
+        height:60px;
+        background: #1e262c;
+        text-align:center;
+        box-sizing:border-box;
+        padding:10px 0;
+        border-top:1px solid #ccc;
+    }
+    .f_menu{
+        display:inline-block;
+        width:100%;
+    }
+    .f_menu>li{
+        width:25%;
+        float:left;
+    }
+    .f_menu>li>span{
+        display:block;
+        color:#ffffff;
+        font-size:12px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .center,
+    header,
+    .headTop,
+    footer .footInfo {
+        width: 100%;
+    }
+
+    .contents .text {
+        width: 90vw;
+        top: 15%;
+    }
+
+    .contents .text {
+        text-align: center;
+        top: 20%;
+    }
+
+    .contents .text > h2 {
+        font-size: 14px;
+    }
+
+    .contents .text > p {
+        font-size: 12px;
+    }
+
+    .forGameList .list > li {
+        /*        width:11.9%;*/
+        height: 100vw;
+    }
+
+    footer .footInfo > P:nth-child(2) {
+        display: none;
+    }
+}
